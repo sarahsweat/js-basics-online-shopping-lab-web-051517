@@ -105,6 +105,7 @@ describe("viewCart()", function() {
 
     expect(console.log).toHaveBeenCalledWith(
       `In your cart, you have mango at $${mangoCost} and nuts at $${nutsCost}.`
+
     );
   });
 
